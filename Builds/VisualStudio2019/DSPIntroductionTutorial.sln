@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSPIntroductionTutorial - Standalone Plugin", "DSPIntroductionTutorial_StandalonePlugin.vcxproj", "{042EF3C8-3DD7-023D-DEEA-A5584B71B10A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{504FC294-5A5E-E5E3-EA80-3C3B58EC8E75} = {504FC294-5A5E-E5E3-EA80-3C3B58EC8E75}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSPIntroductionTutorial - VST3", "DSPIntroductionTutorial_VST3.vcxproj", "{33FFCC04-B610-C988-7DBD-8E8225FEFBB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{504FC294-5A5E-E5E3-EA80-3C3B58EC8E75} = {504FC294-5A5E-E5E3-EA80-3C3B58EC8E75}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSPIntroductionTutorial - Shared Code", "DSPIntroductionTutorial_SharedCode.vcxproj", "{504FC294-5A5E-E5E3-EA80-3C3B58EC8E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33FFCC04-B610-C988-7DBD-8E8225FEFBB8}.Debug|x64.ActiveCfg = Debug|x64
+		{33FFCC04-B610-C988-7DBD-8E8225FEFBB8}.Debug|x64.Build.0 = Debug|x64
+		{33FFCC04-B610-C988-7DBD-8E8225FEFBB8}.Release|x64.ActiveCfg = Release|x64
+		{33FFCC04-B610-C988-7DBD-8E8225FEFBB8}.Release|x64.Build.0 = Release|x64
+		{042EF3C8-3DD7-023D-DEEA-A5584B71B10A}.Debug|x64.ActiveCfg = Debug|x64
+		{042EF3C8-3DD7-023D-DEEA-A5584B71B10A}.Debug|x64.Build.0 = Debug|x64
+		{042EF3C8-3DD7-023D-DEEA-A5584B71B10A}.Release|x64.ActiveCfg = Release|x64
+		{042EF3C8-3DD7-023D-DEEA-A5584B71B10A}.Release|x64.Build.0 = Release|x64
+		{504FC294-5A5E-E5E3-EA80-3C3B58EC8E75}.Debug|x64.ActiveCfg = Debug|x64
+		{504FC294-5A5E-E5E3-EA80-3C3B58EC8E75}.Debug|x64.Build.0 = Debug|x64
+		{504FC294-5A5E-E5E3-EA80-3C3B58EC8E75}.Release|x64.ActiveCfg = Release|x64
+		{504FC294-5A5E-E5E3-EA80-3C3B58EC8E75}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
